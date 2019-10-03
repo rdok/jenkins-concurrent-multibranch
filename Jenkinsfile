@@ -1,7 +1,9 @@
 stages {
-    stage('Build') {
-        steps {
-            sh 'echo "Build"'
+    stages {
+        stage('Build') {
+            steps {
+                sh 'echo "Build"'
+            }
         }
     }
 }
