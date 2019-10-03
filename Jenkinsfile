@@ -1,10 +1,8 @@
 pipeline {
     stages {
-        stages {
-            stage('Build') {
-                steps {
-                    sh 'echo "Build"'
-                }
+        stage('Build') {
+            steps {
+                sh 'echo "Build"'
             }
         }
     }
